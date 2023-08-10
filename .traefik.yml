@@ -1,0 +1,12 @@
+displayName: Create Simulated Device
+type: middleware
+
+import: github.com/bdstark/traefik-create-simulated
+
+summary: Sends a request to create a simulated device
+
+iconPath: jwt.png
+
+testData:
+  IotHubUrl: "http://localhost:7073"
+  SubscriptionKey: subscription-key
